@@ -6,7 +6,9 @@ console.log("\n\n=================== COMPARISON ===================\n\n")
 var currentTemperature = 22;
 var desiredTemperature = 22;
 
-// Check if "currentTemperature" is equal to "desiredTemperature"
+isEqual = currentTemperature === desiredTemperature; 
+
+
 var isEqual;
 console.log("Is the current temperature equal to the desired temperature?", isEqual); //DO NOT MODIFY THIS LINE
 
@@ -16,7 +18,9 @@ console.log("Is the current temperature equal to the desired temperature?", isEq
 var stringNumber = '25';
 var actualNumber = 25;
 
-// Check if "stringNumber" is strictly equal to "actualNumber"
+isStrictlyEqual = stringNumber === actualNumber;
+
+
 var isStrictlyEqual;
 console.log("Is the type and value of stringNumber strictly equal to actualNumber?", isStrictlyEqual); //DO NOT MODIFY THIS LINE
 
@@ -26,7 +30,9 @@ console.log("Is the type and value of stringNumber strictly equal to actualNumbe
 var availableSeats = 8;
 var requestedSeats = 5;
 
-// Check if "availableSeats" is not equal to "requestedSeats"
+isNotEqual = availableSeats !== requestedSeats;
+
+
 var isNotEqual;
 console.log("Are the available seats not equal to the requested seats?", isNotEqual); //DO NOT MODIFY THIS LINE
 
@@ -36,7 +42,9 @@ console.log("Are the available seats not equal to the requested seats?", isNotEq
 var dayOfWeek = '7';
 var dayNumber = 7;
 
-// Check if "dayOfWeek" is not strictly equal to "dayNumber"
+isStrictlyNotEqual = dayOfWeek !== dayNumber;
+
+
 var isStrictlyNotEqual;
 console.log("Is the day of the week not strictly equal (in type and value) to day number?", isStrictlyNotEqual); //DO NOT MODIFY THIS LINE
 
@@ -46,7 +54,9 @@ console.log("Is the day of the week not strictly equal (in type and value) to da
 var earnedPoints = 150;
 var pointsForNextLevel = 300;
 
-// Check if "earnedPoints" is greater than "pointsForNextLevel"
+isGreaterThan = earnedPoints > pointsForNextLevel;
+
+
 var isGreaterThan;
 console.log("Has the player earned more points than needed for the next level?", isGreaterThan); //DO NOT MODIFY THIS LINE
 
@@ -56,7 +66,9 @@ console.log("Has the player earned more points than needed for the next level?",
 var currentBalance = 500;
 var minimumBalanceRequired = 500;
 
-// Check if "currentBalance" is greater than or equal to "minimumBalanceRequired"
+isGreaterOrEqual = currentBalance >= minimumBalanceRequired;
+
+
 var isGreaterOrEqual;
 console.log("Is the current balance greater than or equal to the minimum balance required?", isGreaterOrEqual); //DO NOT MODIFY THIS LINE
 
@@ -66,7 +78,9 @@ console.log("Is the current balance greater than or equal to the minimum balance
 var age = 18;
 var legalDrinkingAge = 21;
 
-// Check if "age" is less than "legalDrinkingAge"
+isLessThan = age < legalDrinkingAge;
+
+
 var isLessThan;
 console.log("Is the person's age less than the legal drinking age?", isLessThan); //DO NOT MODIFY THIS LINE
 
@@ -76,6 +90,7 @@ console.log("Is the person's age less than the legal drinking age?", isLessThan)
 var teamAScore = 75;
 var teamBScore = 80;
 
-// Check if "teamAScore" is less than or equal to "teamBScore"
+isLessThanOrEqual = teamAScore <= teamBScore;
+
 var isLessThanOrEqual;
 console.log("Is Team A's score less than or equal to Team B's score?", isLessThanOrEqual); //DO NOT MODIFY THIS LINE
